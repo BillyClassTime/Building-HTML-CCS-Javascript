@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attributo Selector</title>
+    <style>
+    [title~=flor] {
+        border: 4px solid yellow;
+    }
+    [title~=arbol]{
+        border:hotpink 10px solid;
+    }
+    strong{
+        color:hotpink
+    }
+    .syellow {
+        color:yellow;
+    }
+</style>
+</head>
+<body>
+<p>Todas las imagenes con el titulo attributo contienen la palabra "Flor" 
+    y su borde aparecerá <strong class="syellow">"Amarillo"</strong></p>  
+<p>Las imagenes de arboles apareceran en <strong>rosa</strong></p>      
+    <img src="https://www.w3schools.com/cssref/img_flwr.gif" alt="flor"
+    width="224" height="162" title="flor">
+    <img src="https://www.w3schools.com/cssref/img_tree.gif" alt="arbol"
+    width="200" height="358" title="arbol">
+    <img src="https://www.w3schools.com/cssref/klematis.jpg" alt="klematis"
+    width="150" height="113" title="flor" >
+</body>
+</html>
