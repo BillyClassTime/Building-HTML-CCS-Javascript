@@ -10,3 +10,6 @@ Publicarlo en GitHub
 
 Sincronizar el repositorio local con el repositorio remoto
 
+Mantener el repositorio actualizado
+
+
